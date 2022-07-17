@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.2rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+p {
+  line-height: 1.8;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 60px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+
+/*--------------classes--------------*/
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+
+.desc {
+  margin: 0 auto 30px auto;
+  width: 40%;
+}
+
+.edu-row {
+  /*display: inline-block;*/
+  margin: 50px auto 50px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.skill-row {
+  /*display: inline-block;*/
+  margin: 50px auto 50px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.proj-row {
+  /*display: inline-block;*/
+  margin: 50px auto 50px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.lang-col {
+  /*display: inline-block;*/
+  margin: 50px auto 50px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.computer-img {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-skill {
+  clear: left;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  margin: 0;
+  padding: 100px;
+  padding-bottom: 0;
+}
+
+.middle-container {
+  padding: 50px 0;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 30px auto 50px;
+}
+
+.contact-btn {
+  background-color: #11cdd4;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 3px #2f6627;
+}
+
+.contact-btn:hover {
+  background-color: #30e3cb;
+}
+
+.contact-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 1px 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
