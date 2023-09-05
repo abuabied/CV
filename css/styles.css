@@ -55,6 +55,14 @@ a:hover {
 
 
 /*--------------classes--------------*/
+.h3Custom {
+    color: #66BFBF;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
 .top-cloud {
   position: absolute;
   right: 150px;
