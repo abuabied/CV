@@ -1,239 +1,197 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Mohamad AbuAbied</title>
 
-    <link rel="icon" href="m.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="https://kit.fontawesome.com/b2f53ebbe1.js" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>Mohamad AbuAbied</title>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+  <link rel="icon" href="m.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/b2f53ebbe1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <style>
+    body {
+      line-height: 1.8;
+      font-size: 1.2rem;
+    }
 
-  <body>
-    <div class="top-container">
-      <img
-        class="top-cloud"
-        src="images/cloud.png"
-        alt="cloud-img"
-        style="width: 15%; height: auto"
-      />
-      <div class="container">
-        <h1>Mohamad AbuAbied</h1>
-      </div>
-      <h2>
-        <em><b>Software Developer</b></em>
+    p,
+    li {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    h2 {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img" style="width: 15%; height: auto" />
+    <div class="container">
+      <h1>Mohamad AbuAbied</h1>
+    </div>
+    <h2>
+      <em><b>Software Developer</b></em>
+      <br>
+      <br>
+      <em>Automation en<span id="blink2">gin</span>eer</em>
+    </h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" style="width: 15%; height: auto" />
+    <img src="images/mountain.png" alt="mountain-img" style="width: 70%; height: auto" />
+
+    <script type="text/javascript">
+      var blink2 = document.getElementById("blink2");
+      setInterval(function () {
+        blink2.style.opacity = blink2.style.opacity == 0 ? 1 : 0;
+      }, (2 - Math.random()) * 50);
+    </script>
+  </div>
+
+  <hr />
+  <div class="education">
+    <h2>Education</h2>
+    <div class="edu-row">
+      <h3>2019-2024: University of Haifa</h3>
+      <p>B.Sc. in Computer Science - <b>GPA: 85</b></p>
+    </div>
+    <div class="edu-row">
+      <h3>Full Stack Web Development</h3>
+      <p>Tsofen organization, in cooperation with Moveo Skills. Practical training totaling <b>340 academic hours + 80
+          hours project work</b>.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="skills">
+    <h2>Technical Skills</h2>
+    <div class="skill-row">
+      <h5>Programming Languages:</h5>
+      <p>GoLang, JavaScript/TypeScript, React.js, Node.js, HTML/CSS, Gherkin, C, C++, Java, JavaFX</p>
+      <h5>Familiar With:</h5>
+      <p>Python, C#, MySQL, NoSQL, Java Spring Boot, AWS, Docker</p>
+      <h5>Tools & Other Skills:</h5>
+      <p>GitHub, QA, Full Stack Development, Linux</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="Projects">
+    <h2>Experience</h2>
+    <div class="proj-row">
+      <h3>Automation Engineer</h3>
+      <h4>CoApp – Software Services Provider</h4>
+      <p>2024 – Present</p>
+      <ul>
+        <li>Led the effort to introduce and expand UI automation from the ground up, integrating with an existing
+          API-focused strategy.</li>
         <br>
-        <label class="h3Custom"> Java, C++, React.js</label>
+        <li>Designed and implemented reusable automation logic, focusing on performance, modularity, and clarity.</li>
         <br>
-        <em
-          >Student of Compu<span id="blink2">ter</span> science in The
-          University Of Haifa</em
-        >
-      </h2>
+        <li>Collaborated closely with frontend/backend developers to resolve integration challenges and align test flows
+          with system architecture.</li>
+        <br>
+        <li>Worked with QA and product teams to define test priorities and improve coverage of critical user flows.</li>
+        <br>
+        <li>Advised on infrastructure requirements for CI/CD integration, coordinating scripting and automation workflow
+          support.</li>
+        <br>
+        <li>Contributed feedback on API behavior to improve reliability and test consistency across automation layers.
+        </li>
+        <br>
+        <li>Practiced and promoted clean code principles and cross-team collaboration to build a maintainable automation
+          ecosystem.</li>
+        <br>
+      </ul>
+    </div>
+  </div>
 
-      <img
-        class="bottom-cloud"
-        src="images/cloud.png"
-        alt="cloud-img"
-        style="width: 15%; height: auto"
-      />
-      <img
-        src="images/mountain.png"
-        alt="mountain-img"
-        style="width: 70%; height: auto"
-      />
+  <hr />
 
-      <script type="text/javascript">
-        var blink2 = document.getElementById("blink2");
-        setInterval(function () {
-          blink2.style.opacity = blink2.style.opacity == 0 ? 1 : 0;
-        }, (2 - Math.random()) * 50);
-      </script>
+  <div class="Projects">
+    <h2>Projects</h2>
+    <div class="proj-row">
+      <h3>TeamUp – Web App</h3>
+      <ul>
+        <li>Responsive application for managing teams and meetings.</li>
+        <br>
+        <li>Frontend: React.js, HTML/CSS, JavaScript. Deployed with Firebase and GitHub Actions.</li>
+        <br>
+        <li>Backend: Java Spring Boot, deployed on AWS.</li>
+      </ul>
     </div>
 
-<!--     <div class="middle-container">
-      <div class="profile">
-        <img src="" alt="">
-        <h2>Hello.</h2>
-        <p class="desc">
-          I'm eager to step foot in the industry and further advance my
-          knowledge & skills.
-        </p>
-      </div>
-      <hr />
- -->
-      <hr />
-      <div class="education">
-        <h2>Education.</h2>
-        <div class="edu-row">
-          <h2>Higher education</h2>
-
-          <h3>2019-present: University of Haifa</h3>
-          <p>B.Sc. in Computer science - <b>GPA: </b> 86</p>
-        </div>
-
-        <div class="edu-row">
-          <h2>Courses</h2>
-
-          <h3>Full Stack Web Development</h3>
-          <p>
-            Tsofen organization, in cooperation with Moveo Skills. practical
-            training course, Totalling
-            <b>340 academic hours + 80 academic hours on a project at
-              home.</b>
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="skills">
-        <h2>Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="computer-img"
-            src="images/computer.gif"
-            alt="computer-img"
-          />
-          <h2>Software develpment</h2>
-        </div>
-        <div class="skill-row">
-          <h5>Programming languages:</h5>
-          <p class="code-skill">C, C++, Java, JavaFX, JavaScript/Typescript, React.js/Node.js, HTML/CSS</p>
-          <h5>Familiar with:</h5>
-          <p class="code-skill">Python, C#, MySQL, NoSQL, QA, GitHub, Java Spring Boot, AWS</p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="Projects">
-        <h2>Projects.</h2>
-        <div class="proj-row">
-          <h2>2023  TeamUp - React, Java Spring Boot, Git and AWS</h2>
-          <p class="code-skill">
-            <ul>
-              <li><b>Responsive web application</b> that manages user teams and meetings</li>
-              <br>
-              <li>
-                Front-End developed with <b>React.js</b>, <b>HTML/CSS</b>, <b>JavaScript</b>, and <b>Git</b>
-                , Deployed and maintained using <b>Firebase</b> and <b>GitHub Actions</b>
-              </li>
-              <br>
-              <li>Back-End developed using <b>Java Spring Boot</b> and <b>Git</b>, Deployed and maintained using <b>AWS</b>
-                 and <b>GitHub Actions</b></li>
-              <br>
-              <li> <a class="footer-link" href="https://team-up-141.web.app">Go to TeamUp website</a></li>
-              <br>
-              <li> <a class="footer-link" href="https://github.com/abuabied/team_up_front">Go to Front-End GitHub Repositry</a></li>
-              <br>
-              <li> <a class="footer-link" href="https://github.com/abuabied/team_up_back">Go to Back-End GitHub Repositry</a></li>
-            </ul>
-          </p>
-        </div>
-
-        <div class="proj-row">
-          <h2>2022 - 2023  Epicure Project - React, Node.js and Git</h2>
-          <p class="code-skill">
-            <ul>
-              <li><b>Responsive web application</b> that manages information regarding top restaurants in Tel Aviv</li>
-              <br>
-              <li>Worked with <b>Agile backlog priority</b>, and experience with <b>teamwork</b> including working with <b>QA</b>,
-                 <b>UI/UX designer</b>, and <b>product manager</b>, using <b>Figma for design assets.</b>
-              </li>
-              <br>
-              <li>The application is based on a real product</li>
-              <br>
-              <li>It includes standard features relevant to the industry</li>
-              <br>
-              <li>Developed with <b>React</b>, <b>Node.js</b>, and <b>Git</b></li>
-              <br>
-              <li> <a class="footer-link" href="https://github.com/abuabied/Epicure_Frontend">Go to Front-End GitHub Repositry</a></li>
-              <br>
-              <li> <a class="footer-link" href="https://github.com/abuabied/Epicure_Backtend">Go to Back-End GitHub Repositry</a></li>
-            </ul>
-          </p>
-        </div>
-
-        <div class="proj-row">
-          <h2>2022 - 2023   CPS - Car Parking lot System - Java</h2>
-          <p class="code-skill">
-            <ul>
-              <li><b>Java-based application</b> that manages a Parking lot service</li>
-              <br>
-              <li>Made for the service manager and employees as well as the service customers</li>
-              <br>
-              <li>The application was with the database with <b>MySQL</b>, and <b>source control</b> using <b>GitHub</b></li>
-              <br>
-              <li>Developed with <b>Java</b>, <b>JavaFX</b></li>
-              <br>
-              <li><a class="footer-link" href="https://github.com/AbednAboH/Car-Parking-System">Go to Project GitHub Repositry</a></li>
-            </ul>
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="langs container-fluid">
-        <h2>Languages.</h2>
-        <div class="row">
-          <div class="lang-col text-center col-lg-4">
-            <h3>Arabic</h3>
-            <p>Native</p>
-          </div>
-
-          <div class="lang-col text-center col-lg-4">
-            <h3>English</h3>
-            <p>Fluent</p>
-          </div>
-
-          <div class="lang-col text-center col-lg-4">
-            <h3>Hebrew</h3>
-            <p>Fluent</p>
-          </div>
-        </div>
-      </div>
-      <hr style="margin-top: 00px" />
-
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Cellular number:</h3>
-        <p>052-6081043</p>
-        <h3>Email:</h3>
-        <p>abuabied.mohamad@gmail.com</p>
-      </div>
-      <a class="contact-btn" href="mailto:abuabied.mohamad@gmail.com"
-        >Quick Email</a
-      >
+    <div class="proj-row">
+      <h3>Epicure Project</h3>
+      <ul>
+        <li>Restaurant management interface for top venues in Tel Aviv.</li>
+        <br>
+        <li>Worked in an Agile team with QA, UI/UX designers, and product managers.</li>
+        <br>
+        <li>Frontend/Backend: React, Node.js.</li>
+      </ul>
     </div>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-      <a class="footer-link" href="https://www.github.com/abuabied/"><i class="fa-brands fa-square-github fa-2xl"></i></a>
-      <p class="copyright"></p>
+    <div class="proj-row">
+      <h3>CPS – Car Parking System</h3>
+      <ul>
+        <li>Java-based system for managing parking lot services for staff and customers.</li>
+        <br>
+        <li>Technologies: Java, JavaFX, MySQL, GitHub.</li>
+      </ul>
     </div>
-  </body>
+  </div>
+
+  <hr />
+
+  <div class="langs container-fluid">
+    <h2>Languages</h2>
+    <div class="row">
+      <div class="lang-col text-center col-lg-4">
+        <h3>Arabic</h3>
+        <p>Native</p>
+      </div>
+      <div class="lang-col text-center col-lg-4">
+        <h3>English</h3>
+        <p>Fluent</p>
+      </div>
+      <div class="lang-col text-center col-lg-4">
+        <h3>Hebrew</h3>
+        <p>Fluent</p>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Phone</h3>
+    <p>052-6081043</p>
+    <h3>Email</h3>
+    <p>abuabied.mohamad@gmail.com</p>
+  </div>
+  <a class="contact-btn" href="mailto:abuabied.mohamad@gmail.com">Quick Email</a>
+  <br>
+  <br>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mohammedabuabied"><i
+        class="fa-brands fa-linkedin fa-2xl"></i></a>
+    <a class="footer-link" href="https://www.github.com/abuabied/"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+    <br>
+    <br>
+  </div>
+</body>
+
 </html>
